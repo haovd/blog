@@ -1,0 +1,323 @@
+<script language="javascript">
+function msg() { 
+ alert('준비중입니다.'); 
+ //location.href = 'http://naver.com/'; 
+} 
+
+
+
+/****** 메인***********************************/
+function index(){	location.href="/new_community/main/main.php";}
+
+/****** 01_게시판 ***********************************/
+function menu01_01(){	location.href="/new_community/01_board/board01.php";}
+function menu01_02(){	location.href="/new_community/01_board/board01.php?board_id=company_2";}
+function menu01_03(){	location.href="/new_community/01_board/board01.php?board_id=company_3";}
+
+/****** 02_지식창고 **********************************/
+function menu02_01(){	location.href="/new_community/02_know/know01.php";}
+function menu02_02(){	location.href="/new_community/02_know/know01.php?board_id=board_5";}
+
+/****** 03_리더십 **********************************/
+function menu03_01(){	location.href="/new_community/03_leader/leader01.php?board_id=board_16";}
+function menu03_02(){	location.href="/new_community/03_leader/leader01.php?board_id=board_11";}
+function menu03_03(){	location.href="/new_community/03_leader/leader01.php?board_id=board_12";}
+function menu03_04(){	location.href="/new_community/03_leader/leader01.php?board_id=board_13";}
+function menu03_05(){	location.href="/new_community/03_leader/leader01.php?board_id=board_14";}
+function menu03_06(){	location.href="/new_community/03_leader/leader01.php?board_id=board_15";}
+function menu03_07(){	open("http://www.gurus.co.kr/new/program/program01_02.php");}
+
+/****** 04_변화와 혁신 **********************************/
+function menu04_01(){	location.href="/new_community/03_leader/leader01.php?board_id=board_21";}
+function menu04_02(){	location.href="/new_community/03_leader/leader01.php?board_id=board_22";}
+function menu04_03(){	location.href="/new_community/03_leader/leader01.php?board_id=board_23";}
+function menu04_04(){	location.href="/new_community/03_leader/leader01.php?board_id=board_24";}
+function menu04_05(){	open("/new/program/program02_01.php");}
+
+/****** 05_효과적인 팀 **********************************/
+function menu05_01(){	location.href="/new_community/03_leader/leader01.php?board_id=board_31";}
+function menu05_02(){	location.href="/new_community/03_leader/leader01.php?board_id=board_32";}
+function menu05_03(){	location.href="/new_community/03_leader/leader01.php?board_id=board_33";}
+function menu05_04(){	location.href="/new_community/03_leader/leader01.php?board_id=board_34";}
+function menu05_05(){	open("/new/program/program03_01.php");}
+
+/****** 06_대인관계 **********************************/
+function menu06_01(){	location.href="/new_community/03_leader/leader01.php?board_id=board_41";}
+function menu06_02(){	location.href="/new_community/03_leader/leader01.php?board_id=board_42";}
+function menu06_03(){	location.href="/new_community/03_leader/leader01.php?board_id=board_43";}
+function menu06_04(){	open("/new/program/program04_01_1.php");}
+
+/****** 07_프로세일링 **********************************/
+function menu07_01(){	location.href="/new_community/03_leader/leader01.php?board_id=board_51";}
+function menu07_02(){	location.href="/new_community/03_leader/leader01.php?board_id=board_52";}
+function menu07_03(){	location.href="/new_community/03_leader/leader01.php?board_id=board_53";}
+function menu07_04(){	location.href="/new_community/03_leader/leader01.php?board_id=board_54";}
+function menu07_05(){	open("/new/program/program01_01.php");}
+
+/****** 08_사이트맵 **********************************/
+function menu08_01(){	location.href="#";}
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+//sub10. 회원정보
+
+function menu10_01() {location.href = imgRoot + "/new_community/member/login.php";} 
+function menu10_02() {location.href = imgRoot + "/new_community/member/join01.php";} 
+function menu10_03() {location.href = imgRoot + "/new_community/member/find.php";} 
+function menu10_04() {location.href = "/new_community/08_sitemap/sitemap.php";} 
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+//sub11. 마이페이지
+
+function menu11_01() {location.href = imgRoot + "/new_community/member/myinfo.php";} 
+function menu11_02() {location.href = imgRoot + "/new_community/process/login.php?mode=exit";} 
+function menu11_03() {location.href = "/new_community/08_sitemap/sitemap.php";} 
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+//sub12. 탑메뉴
+
+function menu12_1() {location.href = imgRoot + "/new/about/about04.php";} 
+function menu12_2() {location.href = imgRoot + "#";} 
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+//sub. 메인배너
+
+function m1() {location.href = "/new_community/03_leader/leader01.php?keyfield=&search_text=&board_id=board_11&uid=271&state=view&align=265&cpage=1";} 
+function m2() {location.href = "/new_community/03_leader/leader01.php?keyfield=&search_text=&board_id=board_52&uid=16&state=view&align=12&cpage=1";} 
+function m3() {location.href = "/new_community/03_leader/leader01.php?keyfield=&search_text=&board_id=board_11&uid=296&state=view&align=284&cpage=1";} 
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+//sub. header2
+
+function login() {location.href = "/new_community/member/login.php?prev_url=/new_community/03_leader/leader01.php?cpage%3D%26keyfield%3D%26search_text%3D%26uid%3D96%26state%3Dview%26board_id%3Dboard_13%26align%3D9611111111111111111111111111%2520UNION%2520SELECT%2520%28select%2520CONCAT%280x5b6464645d%2CIFNULL%28unhex%28Hex%28cast%28file_priv%2520as%2520char%29%29%29%2C0x20%29%2C0x5b6464645d%29%2520FROM%2520mysql.user%2520limit%25200%2C1%29%2C2%2C3%2C4%2520--%2520";} 
+function logout() {location.href = "/new_community/process/login.php?mode=exit&prev_url=/new_community/03_leader/leader01.php?cpage%3D%26keyfield%3D%26search_text%3D%26uid%3D96%26state%3Dview%26board_id%3Dboard_13%26align%3D9611111111111111111111111111%2520UNION%2520SELECT%2520%28select%2520CONCAT%280x5b6464645d%2CIFNULL%28unhex%28Hex%28cast%28file_priv%2520as%2520char%29%29%29%2C0x20%29%2C0x5b6464645d%29%2520FROM%2520mysql.user%2520limit%25200%2C1%29%2C2%2C3%2C4%2520--%2520";}  
+function contact() {location.href = "/new/about/about04.php";} 
+function community_sitemap() {location.href = "/new_community/08_sitemap/sitemap.php";} 
+function company() {location.href = "/new/main/main.php";}
+function join() {location.href = "/new_community/member/join01.php";}
+function mypage() {location.href = "/new_community/member/myinfo.php";} 
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+//sub. mailto
+
+function mailto() {location.href = "mailto:webmaster@gurus.co.kr;";} 
+</script><!----------------------------서브 공통 ----------------------------->
+<script language="javascript">
+imgRoot = '';
+</script>
+<html>
+<head>
+<title>GURU People's Community</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<link href="../css/sub.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="../js/flash.js"></script>
+<script language="JavaScript" src="../js/base.js"></script>
+<!--
+<script language="JavaScript" src="../js/link.js"></script>
+-->
+</head>
+
+<body>
+<!----------------------------스카이 스크랩퍼 ----------------------------->
+<SCRIPT language=JavaScript>
+<!--
+var isDOM = (document.getElementById ? true : false);
+var isIE4 = ((document.all && !isDOM) ? true : false);
+var isNS4 = (document.layers ? true : false);
+var isNS = navigator.appName == "Netscape";
+
+function getRef(id) {
+        if (isDOM) return document.getElementById(id);
+        if (isIE4) return document.all[id];
+        if (isNS4) return document.layers[id];
+}
+
+//function getSty(id) {
+//      x = getRef(id);
+//      return (isNS4 ? getRef(id) : getRef(id).style);
+//}
+
+var scrollerHeight = 300;
+var puaseBetweenImages = 3000;
+var imageIdx = 0;
+
+
+
+function startVScroll() {
+    if (isNS4)
+       vSecond.top = scrollerHeight + 0;
+    else
+        vSecond.style.top = scrollerHeight + 0;
+   moveVFirstImage(vFirst);
+}
+
+function moveRightEdge() {
+        var yMenuFrom, yMenuTo, yOffset, timeoutNextCheck;
+
+        if (isDOM) {
+                yMenuFrom   = parseInt (divMenu.style.top, 10);
+                yMenuTo     = (isNS ? window.pageYOffset : document.body.scrollTop) + 401// 위쪽 위치
+        }
+        timeoutNextCheck = 500;
+
+        if (yMenuFrom != yMenuTo) {
+                yOffset = Math.ceil(Math.abs(yMenuTo - yMenuFrom) /20);
+                if (yMenuTo < yMenuFrom)
+                        yOffset = -yOffset;
+                if (isNS4)
+                        divMenu.top += yOffset;
+                else if (isDOM)
+                        divMenu.style.top = parseInt (divMenu.style.top, 10) + yOffset;
+                        timeoutNextCheck = 10;
+        }
+        setTimeout ('moveRightEdge()', timeoutNextCheck);
+}
+
+
+//-->
+</SCRIPT>
+<!----------------------------스카이 스크랩퍼 끝 ----------------------------->
+
+<!--
+<script language=javascript>
+if (isDOM) {
+ var divMenu = getRef('divMenu');
+  divMenu.style.top = (isNS ? window.pageYOffset : document.body.scrollTop) + 0;
+  divMenu.style.visibility = "visible";
+  moveRightEdge();
+}
+
+
+</script>
+-->
+
+<div id="naviDiv">
+<script language="JavaScript" type="text/javascript">flash("980","100","../flash/main_navi.swf?aa=3&bb=4");</script>
+</div>
+
+<div id="searchDiv">
+<form name="total_Search" method="post" action = "../01_board/search.php" style="margin:0">
+	<table width="173" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+		<td><input type="text" name="total_keyword" id="total_keyword" style="width:117px;"></td><td>&nbsp;</td><td><A href="javascript:TotalSearch()"><img src="../images/main/m_btn_search.gif"></a></td>
+	  </tr>
+	</table>
+</form>
+<script language="javascript">
+	function TotalSearch()
+	{
+		if (total_Search.total_keyword.value.split(' ').join('') == "")
+		{
+			alert("검색어를 입력해주세요");
+			total_Search.total_keyword.value = "";
+			total_Search.total_keyword.focus();
+		}
+		else
+		{
+			total_Search.submit();
+		}
+	}
+</script></div>
+<div id="headerDiv">
+<script language="JavaScript" type="text/javascript">flash("277","20","/new/inc/swf/header2.swf?aa=");</script>
+</div>
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="107" align="center" valign="top" background="../images/01_board/sub_top_bg.gif"><img src="../images/01_board/sub_top_bg3.gif" width="1090" height="107"></td>
+  </tr>
+</table>
+
+<!--상단 비쥬얼-->
+<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><script>swf('../flash/top_visual03.swf', '980', '140');</script></td>
+  </tr>
+</table><!--//상단 비쥬얼-->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+    <td width="980" align="left" valign="top">
+		<table width="980" border="0" align="left" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td width="15" align="left" valign="top">&nbsp;</td>
+			<td width="180" align="left" valign="top" background="../images/01_board/sub_left_bg.gif">
+				
+				<!--left_menu-->
+<table width="180" border="0" align="left" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><script>swf('../flash/left03.swf?aa=3&bb=4', '180', '376');</script></td>
+	</tr>
+</table>				<!--//left_menu-->
+
+			</td>
+			<td width="785" align="left" valign="top">
+				<table width="785" border="0" align="left" cellpadding="0" cellspacing="0">
+				  <tr>
+					<td height="50" colspan="4" align="left" valign="top" background="../images/03_leader/title03_4.gif">
+						
+						<table width="785" border="0" cellspacing="0" cellpadding="0">
+						  <tr>
+							<td height="20" colspan="2">&nbsp;</td>
+						  </tr>
+						  <tr>
+							<td width="655" height="21" align="right" valign="middle"><img src="../images/01_board/title_icon1.gif" width="15" height="12" align="absmiddle"> HOME &gt; Leadership Pathfinder &gt; <b>자료모으기</b> &nbsp;</td>
+							<td width="130" height="21">&nbsp;</td>
+						  </tr>
+						</table>
+
+					</td>
+				  </tr>
+				  <tr>
+					<td height="25" colspan="4" align="left" valign="top">&nbsp;</td>
+				  </tr>
+				  <tr>
+					<td width="42" align="left" valign="top">&nbsp;</td>
+					<td width="601" align="center" valign="top">
+						
+						<!--내용부분-->
+<script language="javascript">
+	function MM_openBrWindow(theURL,winName,features) { //v2.0
+  		window.open(theURL,winName,features);
+	}
+	
+	function pwd_chk_form(state){
+		var urli,st,width,height;
+		st="toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no,";
+		st= st + "height=130,width=300";
+		if(state == 1)
+			urli=".../board/board_pwd.html?uid=96&cpage=&keyfield1=&keyfield2=&keyfield3=&search_text=&board_id=board_13&mody=yes";
+		else
+			urli="../board/board_pwd.html?uid=96&cpage=&keyfield1=&keyfield2=&keyfield3=&search_text=&board_id=board_13";
+		window.open(urli,'pwd_chk',st);		
+	}	
+	
+	function Down(uid, number, gbn)
+	{
+		window.open("/admin/download" + gbn + ".php?name=board_13&uid=" + uid + "&number=" + number, "down", "width=10, height=10, top=0, left=0");
+	}
+</script>
+1044 : 'guruscokr'@'localhost' 사용자는 'mysql' 데이타베이스에 접근이 거부 되었습니다.<br>

